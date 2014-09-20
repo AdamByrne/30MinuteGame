@@ -1,23 +1,23 @@
-var context;
-var queue;
-var WIDTH = 1024;
-var HEIGHT = 768;
-var mouseXPosition;
-var mouseYPosition;
-var batImage;
-var stage;
-var animation;
-var deathAnimation;
-var spriteSheet;
-var enemyXPos=100;
-var enemyYPos=100;
-var enemyXSpeed = 1.5;
-var enemyYSpeed = 1.75;
-var score = 0;
-var scoreText;
-var gameTimer;
-var gameTime = 0;
-var timerText;
+var context,
+queue,
+WIDTH = 1024,
+HEIGHT = 768,
+mouseXPosition,
+mouseYPosition,
+batImage,
+stage,
+animation,
+deathAnimation,
+spriteSheet,
+enemyXPos=100,
+enemyYPos=100,
+enemyXSpeed = 1.5,
+enemyYSpeed = 1.75,
+score = 0,
+scoreText,
+gameTimer,
+gameTime = 0,
+timerText;
 
 window.onload = function()
 {
