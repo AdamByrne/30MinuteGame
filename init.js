@@ -1,7 +1,7 @@
 var context,
 queue,
 WIDTH = 1024,
-HEIGHT = 1024,
+HEIGHT = 768,
 mouseXPosition,
 mouseYPosition,
 batImage,
